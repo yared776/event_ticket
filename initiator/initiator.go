@@ -16,7 +16,7 @@ import (
 func Initiate() {
 	server := gin.Default()
 	v1 := server.Group("v1")
-	server.LoadHTMLGlob("public/*.html")
+	server.LoadHTMLGlob("public/html/*.html")
 	server.Static("/public", "./public")
 	routing.RegisterRoutes(v1, routing.Routes)
 	srv := &http.Server{
