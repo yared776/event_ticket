@@ -12,4 +12,5 @@ func Home(c *gin.Context) {
 }
 func Buy(c *gin.Context) {
 	//TODO
+	c.HTML(http.StatusOK, "buy.html", nil)
 }

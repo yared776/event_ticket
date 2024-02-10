@@ -12,7 +12,7 @@ var Routes = []Route{
 		Handler: handler.Home,
 	},
 	{
-		Method:  http.MethodPost,
+		Method:  http.MethodGet,
 		Path:    "/buy",
 		Handler: handler.Buy,
 	},
