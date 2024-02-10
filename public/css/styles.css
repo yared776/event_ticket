@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* styles.css */
+/* styles.css */
 
 body {
     display: flex;
@@ -193,36 +187,3 @@ body {
       max-width: 100%;
     }
   }  
-  </style>
-</head>
-<body>
-  <form class="form">
-    
-    <p class="message">Hamere Berhan 2024 Grand Expo Ticket Form</p>
-    <div class="flex">
-      <label>
-        <input class="input" type="text" placeholder="" required="">
-        <span>First Name</span>
-      </label>
-
-      <label>
-        <input class="input" type="text" placeholder="" required="">
-        <span>Last Name</span>
-      </label>
-    </div>  
-
-    <label>
-      <input class="input" type="tel" placeholder="" required="">
-      <span>Phone Number</span>
-    </label>
-
-    <label>
-      <input class="input" type="email" placeholder="" required="">
-      <span>Email</span>
-    </label> 
-
-    <button class="submit">Register</button>
-    <button class="learn">Learn More</button>
-  </form>
-</body>
-</html>
